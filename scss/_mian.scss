@@ -1,0 +1,71 @@
+.container .header{
+  height: 1rem;
+}
+.container h3{
+  font-size: .32rem;
+  font-family: "Microsoft Himalaya";
+  color: #fff;
+  line-height: 0.6rem;
+  margin: 0;
+}
+.container p{
+  font-size: 0.18rem;
+  color: #fff;
+  line-height: .3rem;
+  margin: 0;
+}
+.container .row>.col-12{
+  width: 100%;
+  height: 1rem;
+  border-bottom: 2px #fff solid;
+}
+.jianli,.product{
+  height: 3.8rem;
+  border-bottom: 10px #fff solid;
+  border-radius: 50%;
+  transition: all 2s;
+  .h4{
+    font-size: .32rem;
+    color: #fff;
+    font-weight: bold;
+    line-height: 3.8rem;
+    a{
+      color: inherit;
+      text-decoration: none;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.jianli{
+  border-left: 10px #fff solid;
+  animation: leftAni 3s both infinite;
+}
+.product{
+  border-right: 10px #fff solid;
+  animation: rightAni 3s both infinite;
+}
+.jianli:hover,.product:hover{
+  cursor: pointer;
+  transition: all 2s;
+  animation: none;
+}
+
+
+@keyframes leftAni {
+  0%{
+    transform: rotate3d(-1,1,0,720deg) ;
+  }
+  100%{
+    transform:  rotate3d(0,0,0,0deg);
+  }
+}
+@keyframes rightAni {
+  0%{
+    transform: rotate3d(1,1,0,720deg) ;
+  }
+  100%{
+    transform:  rotate3d(0,0,0,0deg);
+  }
+}
