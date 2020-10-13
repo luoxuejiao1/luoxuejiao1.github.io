@@ -19,6 +19,9 @@ canvas {
   left: 0;
   z-index: -10; }
 
+.container {
+  padding: 0; }
+
 .container .header {
   height: 1rem; }
 
