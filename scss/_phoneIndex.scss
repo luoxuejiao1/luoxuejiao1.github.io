@@ -1,0 +1,19 @@
+@media screen and (max-width: 576px){
+  .header{
+    width: 100%;
+    height: 0.5rem;
+  }
+  .container h3{
+    font-size: .16rem;
+    font-family: "Microsoft Himalaya";
+    color: #fff;
+    line-height: 0.3rem;
+    margin: 0;
+  }
+  .container p{
+    font-size: 0.12rem;
+    color: #fff;
+    line-height: .15rem;
+    margin: 0;
+  }
+}
