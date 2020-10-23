@@ -11,17 +11,6 @@ a:hover{
   color: inherit;
 }
 
-//背景
-canvas{
-  width:100%;
-  height:auto;
-  display:inline-block;
-  //vertical-align:baseline;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index:-10;
-}
-.container{
+.container,.container-fluid{
   padding: 0;
 }
