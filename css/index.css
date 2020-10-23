@@ -56,6 +56,8 @@ a:hover {
   margin: 0;
   padding-left: 30px;
   line-height: .3rem; }
+ .my_infor p a {
+    color: #b3d7ff; }
 
 .index_ban {
   background: #333; }
