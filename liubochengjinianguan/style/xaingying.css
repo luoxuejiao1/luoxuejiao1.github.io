@@ -1,0 +1,189 @@
+@media screen and (min-width: 1200px) {
+    main{
+        width: 1200px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    main{
+        width: 100%;
+    }
+    .searvhBox,.banner,.hongyuan{
+        display: none;
+    }
+    nav{
+        width: 100%;
+    }
+    nav>ul{
+        width: 100%;
+    }
+    .main>h3{
+        width: 100%;
+    }
+    .main>ul{
+        width: 95%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main>ul>li,
+    .main>ul>li>a{
+        width: 100%;
+    }
+    .main>.yangeImg{
+        width: 100%;
+    }
+    .main>.yangeImg>a{
+        display: block;
+        width: 50%;
+    }
+    .main>.yangeImg>a>img{
+        width: 100%;
+    }
+    .main3>h3,
+    .main3>ul{
+        width: 100%;
+    }
+    .main3>.zongshu{
+        width: 100%;
+    }
+    .main3>.zongshu>.tongxiao,
+    .main3>.zongshu>.gongxunzhu{
+        width: 50%;
+    }
+    .main3>.zongshu>.tongxiao>a,
+    .main3>.zongshu>.gongxunzhu>a{
+        display: block;
+        width: 100%;
+    }
+    .main3>.zongshu>.tongxiao>a>img,
+    .main3>.zongshu>.gongxunzhu>a>img{
+        width: 100%;
+    }
+    .main3>.zongshu>.tongxiao>p,
+    .main3>.zongshu>.gongxunzhu>p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main3>.changsuo,
+    .main3>.changsuo>ul,
+    .main3>.changsuo>ul>li,
+    .main3>.changsuo>ul>li>p{
+        width: 95%;
+    }
+    .main4>a{
+        display: block;
+        width: 100%;
+    }
+    .main4>a>img{
+        width: 100%;
+    }
+    .main4>p{
+        width: 80%;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    .main5>.wenwu{
+        width: 100%;
+    }
+    .main5>.wenwu>.zhanting{
+        width: 50%;
+    }
+    .main5>.wenwu>.zhanting>img{
+        width: 100%;
+    }
+    .main5>.wenwu>.zhanting>.wenwu_cont{
+        width: 100%;
+    }
+    .main5>.wenwu>.zhanting>.wenwu_cont>p{
+        width: 80%;
+    }
+    .main5>.wenwu>.zhantu5{
+        margin-left: 25%;
+    }
+    .main6>.jigouset{
+        width: 95%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main6>.jigouset>p{
+        width: 100%;
+    }
+    .main6>.rongyu{
+        width: 95%;
+    }
+    .main6>a{
+        display: block;
+        width: 95%;
+    }
+    .main6>a>img{
+        width: 100%;
+    }
+    .main7>table{
+        width: 95%;
+    }
+    .main8>.fabu{
+        width: 95%;
+    }
+    .main9>.openTime,
+    .main9>.address{
+        width: 95%;
+    }
+    .main9>.openTime>p,
+    .main9>.address>p{
+        width: 100%;
+    }
+    .main9>.trfficRote{
+        width: 95%;
+    }
+    .main9>.trfficRote>ul,
+    .main9>.trfficRote>ul>li,
+    .main9>.trfficRote>ul>li>p{
+        width: 100%;
+    }
+    .main9>iframe{
+        display: none;
+    }
+    .main9>img{
+        width: 100%;
+        display: block;
+    }
+    .main10>.openTime,
+    .main10>.address{
+        width: 95%;
+    }
+    .main10>.openTime>p,
+    .main10>.address>p{
+        width: 100%;
+    }
+    .main10>a{
+        display: block;
+        width: 95%;
+    }
+    .main10>a>img{
+        width: 100%;
+    }
+    .main11>.openTime,
+    .main11>.address{
+        width: 95%;
+    }
+    .main11>.openTime>p,
+    .main11>.address>p{
+        width: 100%;
+    }
+    .main11>a{
+        display: block;
+        width: 95%;
+    }
+    .main11>a>img{
+        width: 100%;
+    }
+    .vidXC{
+        width: 100%;
+    }
+    .vidXC>video{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    footer{
+        display: none;
+    }
+}

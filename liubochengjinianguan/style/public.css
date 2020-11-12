@@ -1,0 +1,72 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    font-size: inherit;
+}
+ul>li>a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-size: 18px;
+    color: #333;
+    font-family: "Microsoft YaHei","Arial";
+}
+main{
+    width: 1200px;
+    height: 1080px;
+}
+main>h3{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    font-size: 30px;
+    border-left: 10px #f00 solid;
+    border-bottom: 3px #f00 solid;
+    color: #800000;
+    font-weight: normal;
+}
+main>h3>a:nth-child(2){
+    font-size: 16px;
+    line-height: 40px;
+    float: right;
+    color: #333;
+}
+main>h3>a:nth-child(2):hover{
+    color: #800000;
+}
+.main a img,
+.main3 a img,
+.main4 a img,
+.main6 a img,
+.main10 a img,
+.main11 a img{
+    transition: all 0.5s;
+}
+.main a:hover img,
+.main3 a:hover img,
+.main4 a:hover img,
+.main6 a:hover img,
+.main10 a:hover img,
+.main11 a:hover img{
+    transform: scale(1.05);
+}
+.navPos{
+    position: fixed;
+    top: 0;
+    opacity: 0.5;
+    z-index: 800;
+}
+.navPos:hover{
+    opacity: 0.8;
+}

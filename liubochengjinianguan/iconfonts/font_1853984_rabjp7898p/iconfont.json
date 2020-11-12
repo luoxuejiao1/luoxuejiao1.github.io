@@ -1,0 +1,30 @@
+{
+  "id": "1853984",
+  "name": "刘伯承纪念馆",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1719339",
+      "name": "轮播右翻滚",
+      "font_class": "lunboyoufangun",
+      "unicode": "e7b7",
+      "unicode_decimal": 59319
+    },
+    {
+      "icon_id": "1719340",
+      "name": "轮播左翻滚",
+      "font_class": "lunbozuofangun",
+      "unicode": "e7b8",
+      "unicode_decimal": 59320
+    },
+    {
+      "icon_id": "14421735",
+      "name": "放大镜",
+      "font_class": "fangdajing_huaban1",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    }
+  ]
+}
