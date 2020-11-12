@@ -1,0 +1,30 @@
+{
+  "id": "1845651",
+  "name": "hanruitang",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "609279",
+      "name": "搜索",
+      "font_class": "sousuosearch82",
+      "unicode": "e6d1",
+      "unicode_decimal": 59089
+    },
+    {
+      "icon_id": "11078225",
+      "name": "轮播向右",
+      "font_class": "lunboxiangyou",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "11078227",
+      "name": "轮播向左",
+      "font_class": "lunboxiangzuo",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    }
+  ]
+}

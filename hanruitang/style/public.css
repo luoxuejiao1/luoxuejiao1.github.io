@@ -1,0 +1,17 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-size: 16px;
+    font-family: "Microsoft YaHei","Simsun","Arial";
+    color: #333333;
+}
