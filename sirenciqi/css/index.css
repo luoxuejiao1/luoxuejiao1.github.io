@@ -1,0 +1,533 @@
+.top{
+    width: 100%;
+    height: 80px;
+    min-width: 1200px;
+}
+.logo_nav{
+    width: 1200px;
+    height: 80px;
+    overflow: hidden;
+}
+.logo_nav>a{
+    float: left;
+    display: block;
+    width: 360px;
+    height: 78px;
+    margin: 0;
+}
+.navUl{
+    width: 300px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 180px;
+    display: flex;
+}
+.navUl>li{
+    flex: 1;
+    font-size: 18px;
+    color: #333333;
+}
+.navUl>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.navUl>li:hover{
+    color: #efabbf;
+}
+.changeUl>a{
+    color: #efabbf;
+}
+.login{
+    margin-top: 30px;
+    float: right;
+}
+.loginBtn{
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.login>a:hover{
+    color: #efabbf;
+}
+.sreach,.shopping{
+    font-size: 24px;
+}
+.topStop{
+    position: fixed;
+    top: 0;
+    opacity: 0.5;
+    z-index: 888;
+    border-bottom: 2px solid #cccccc;
+}
+
+
+
+.carousel-item{
+    position: relative;
+}
+.jianjie{
+    position: absolute;
+    z-index: 100;
+    top: 200px;
+    left: 360px;
+}
+.jianjie>.tit{
+    font-size: 32px;
+}
+.jianjie>.tit_jie{
+    font-size: 14px;
+    color: #ab6c89;
+}
+.jianjie>.tit_shao{
+    width: 390px;
+    font-size: 14px;
+    color: #8d668d;
+}
+.jianjie>.tit_anniu{
+    width: 200px;
+    height: 32px;
+    border-radius: 3px;
+}
+.main{
+    width: 1200px;
+    margin-top: 100px;
+}
+.main>.welcome,.main>.shangpin_tit{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.main>.cont{
+    font-size: 14px;
+    margin: 0;
+    width: 550px;
+    margin-bottom: 100px;
+}
+.shangpinUl{
+    margin: 0;
+    width: 500px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.shangpinUl>li{
+    flex: 1;
+}
+.shangpinUl a:hover{
+    color: #efabbf;
+}
+.allPro{
+    display: block;
+}
+.singlePro{
+    display: none;
+}
+.singlePro>.canju,
+.singlePro>.jiuju,
+.singlePro>.chaju,
+.singlePro>.beiwan,
+.singlePro>.tangchikuai{
+    width: 1200px;
+    overflow: hidden;
+    display: none;
+}
+.singlePro ul>li{
+    width: 240px;
+    height: 336px;
+    float: left;
+    margin-right: 80px;
+}
+.singlePro ul>li:nth-child(4n){
+    margin: 0;
+}
+.singlePro ul>li a{
+    display: block;
+    width: 240px;
+    height: 240px;
+    margin: 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.singlePro ul>li img{
+    transition: all 0.5s;
+}
+.singlePro ul>li a:hover img{
+    transform: scale(1.1);
+}
+
+.shangpinLi{
+    width: 1200px;
+    height: 336px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.shangpinLi>li{
+    margin: 0;
+    width: 240px;
+    height: 336px;
+}
+.shangpinLi>li figcaption{
+    margin-top: 20px;
+}
+.shangpinLi>li a{
+    display: block;
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+}
+.shangpinLi>li img{
+    transition: all 0.5s;
+}
+.shangpinLi>li a:hover img{
+    transform: scale(1.1);
+}
+
+.moreMain{
+    width: 100%;
+    min-width: 1200px;
+    height: 531px;
+    margin-bottom: 70px;
+    background: #f6f6f6;
+}
+.contMore{
+    width: 1200px;
+    height: 531px;
+    overflow: hidden;
+}
+.contMore>img{
+    margin-top: 90px;
+    float: left;
+}
+.contMore>.moreJian{
+    float: left;
+    margin-left: 100px;
+    margin-top: 160px;
+}
+.contMore>.moreJian>.tit{
+    width: 390px;
+    font-size: 32px;
+}
+.contMore>.moreJian>.tit_shao{
+    font-size: 12px;
+    width: 293px;
+    margin: 0;
+    color: #999999;
+}
+.contMore>.moreJian>.tit_anniu{
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 3px;
+}
+
+.footer{
+    width: 100%;
+    min-width: 1200px;
+    margin-bottom: 50px;
+}
+.footer>footer{
+    width: 1200px;
+    overflow: hidden;
+}
+.footerLeft{
+    width: 380px;
+    float: left;
+}
+.footer>footer>a{
+    display: block;
+    width: 302px;
+    height: 61px;
+    margin: 0;
+}
+.footerLeft>.wenjie,
+.footerLeft>.address{
+    margin: 0;
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #999999;
+}
+.footerLeft>.num{
+    margin: 0;
+    margin-top: 40px;
+    font-size: 22px;
+    line-height: 30px;
+    color: #333333;
+}
+.footerLeft>.email{
+    margin: 0;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #9e6c60;
+    font-weight: bold;
+}
+.footerRight{
+    float: right;
+    margin-top: 25px;
+    overflow: hidden;
+}
+.footerRight>ul{
+    float: left;
+    margin-right: 50px;
+}
+.footerRight>ul>li{
+    font-size: 16px;
+    color: #969696;
+    line-height: 45px;
+}
+.footerRight>.iconspan{
+    float: left;
+    width: 100%;
+}
+.footerRight>.iconspan>.iconfont{
+    font-size: 32px;
+}
+.footerRight>.iconspan>.iconQQ{
+    color: #68a5e1;
+    margin-right: 15px;
+}
+.footerRight>.iconspan>.iconWX{
+    color: #28c445;
+    font-size: 30px;
+    margin-right: 15px;
+}
+.footerRight>.iconspan>.iconWB{
+    color: #ea5d5c;
+    font-size: 30px;
+}
+
+
+.indexPage,.shoppingPage,.guanyuPage,.lianxiPage{
+    display: none;
+}
+.contMain>.active,
+.singlePro>.active,
+.shoppingRight>.shoppingPro>.active{
+    display: block;
+}
+.shoppingPage,.guanyuPage,.lianxiPage{
+    position: relative;
+}
+.shoppingPage>.breadNav,
+.guanyuPage>.breadNav,
+.lianxiPage>.breadNav{
+    position: absolute;
+    top: 30px;
+    left: 360px;
+}
+.breadNav>a{
+    font-size: 18px;
+    color: #efabbf;
+}
+.breadNav>span:nth-child(2){
+    margin: 0 5px;
+}
+.shoppingPage>.shoppingMain{
+    width: 1200px;
+    overflow: hidden;
+    padding-top: 110px;
+}
+.shoppingPage>.shoppingMain>.shoppingLeft{
+    float: left;
+    width: 207px;
+}
+.shoppingPage>.shoppingMain>.shoppingRight{
+     float: right;
+     width: 762px;
+    margin-bottom: 200px;
+}
+.shoppingLeft>.shopping_tit,
+.shoppingLeft>.fenlei_tit{
+    font-size: 20px;
+}
+.shopping_input{
+    width: 100%;
+    margin-bottom: 36px;
+    border-bottom: 1px solid #333333;
+}
+.shopping_input>input{
+    border: none;
+    box-sizing: border-box;
+    padding-left: 20px;
+    width: 178px;
+}
+.shopping_input>input::-webkit-input-placeholder{
+    color: #cccccc;
+    font-size: 12px;
+}
+.shopping_input>.icon-sousuo{
+    font-size: 24px;
+    line-height: 24px;
+}
+.shopping_ul{
+    width: 207px;
+    font-size: 12px;
+}
+.shopping_ul>li{
+    color: #797979;
+    height: 32px;
+}
+.shoppingAll>ul{
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+.shoppingAll>ul>li{
+    width: 230px;
+    height: 326px;
+    float: left;
+    margin-right: 36px;
+}
+.shoppingAll>ul>li a{
+    display: block;
+    width: 230px;
+    height: 230px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.shoppingAll>ul>li img{
+    width: 230px;
+    height: 230px;
+    transition: all 0.5s;
+}
+.shoppingAll>ul>li a:hover img{
+    transform: scale(1.1);
+}
+.shoppingAll>ul>li:nth-child(3n){
+    margin-right: 0;
+}
+.shoppingAll{
+    display: block;
+}
+.shoppingPro{
+    display: none;
+}
+.shoppingPro>.canju,
+.shoppingPro>.jiuju,
+.shoppingPro>.chaju,
+.shoppingPro>.beiwan,
+.shoppingPro>.tangchikuai{
+    width: 762px;
+    overflow: hidden;
+    display: none;
+}
+.shoppingPro ul>li{
+    width: 230px;
+    height: 326px;
+    float: left;
+    margin-right: 36px;
+}
+.shoppingPro ul>li:nth-child(3n){
+    margin: 0;
+}
+.shoppingPro ul>li a{
+    display: block;
+    width: 230px;
+    height: 230px;
+    margin: 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.shoppingPro ul>li img{
+    width: 230px;
+    height: 230px;
+    transition: all 0.5s;
+}
+.shoppingPro ul>li a:hover img{
+    transform: scale(1.1);
+}
+
+
+
+
+.guanyuPage>.moreMain{
+    margin-bottom: 150px;
+}
+.lianxiMain{
+    width: 1200px;
+    padding-top: 110px;
+}
+.lianxiMain>.lianxi,
+.lianxiMain>.liuyan{
+    overflow: hidden;
+    width: 100%;
+}
+.lianxiMain>.lianxi>.lianxi_tit{
+    float: left;
+    width: 50%;
+    font-size: 30px;
+    line-height: 30px;
+    color: #666666;
+}
+.lianxiMain>.lianxi>.lianxi_cont{
+    float: right;
+    width: 50%;
+}
+.lianxi_cont>.lianxi_dizhi{
+    font-size: 14px;
+    color: #666666;
+    line-height: 14px;
+    margin-bottom: 60px;
+}
+.lianxi_cont>.lianxi_num{
+    font-size: 22px;
+    color: #333333;
+    line-height: 22px;
+    margin-bottom: 60px;
+}
+.lianxi_cont>.lianxi_email{
+    font-size: 14px;
+    color: #9e6c60;
+    line-height: 14px;
+    font-weight: bold;
+}
+
+.lianxiMain>.liuyan{
+    margin-top: 100px;
+}
+.liuyan>.liuyan_tit{
+    float: left;
+    width: 50%;
+    font-size: 30px;
+    line-height: 30px;
+    color: #666666;
+}
+.liuyan>.liuyan_cont{
+    float: right;
+    width: 50%;
+}
+.liuyan>.liuyan_cont span{
+    color:red;
+}
+.liuyan>.liuyan_cont label{
+    font-size: 14px;
+    line-height: 14px;
+    color: #999999;
+}
+.liuyan>.liuyan_cont input{
+    width: 100%;
+    height: 80px;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 25px;
+
+}
+.liuyan>.liuyan_cont textarea{
+    width: 100%;
+    height: 120px;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 50px;
+}
+.liuyan>.liuyan_cont .send{
+    width: 135px;
+    height: 36px;
+    background: #916c60;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 200px;
+}
+
+
