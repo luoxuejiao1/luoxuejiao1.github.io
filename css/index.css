@@ -42,3 +42,7 @@ body {
 
 .navUl li:hover:after {
   width: 100%; }
+
+@media screen and (max-width: 767px) {
+  .navUl > li {
+    font-size: 0.875rem; } }
