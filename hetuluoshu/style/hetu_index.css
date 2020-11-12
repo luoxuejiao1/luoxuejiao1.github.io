@@ -1,0 +1,446 @@
+.classOne{
+    position: relative;
+}
+.logoNav{
+    width: 1200px;
+    height: 150px;
+    /*position: absolute;*/
+    /*background-color: #993366;*/
+}
+.logoNav>a{
+    display: block;
+    width: 300px;
+    height: 150px;
+}
+.logoNav>nav>.navUl{
+    width: 750px;
+    height: 50px;
+    display: flex;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.logoNav>nav>.navUl>li{
+    flex: 1;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+.logoNav>nav>.navUl>li>a{
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+.logoNav>nav>ul>.changeBg{
+    background: #fff;
+    color: #fd4f4f;
+    height: 50px;
+}
+.logoNav>nav>ul>.changeBg:nth-child(1){
+    background: #fff;
+    color: #fd4f4f;
+    border-radius: 20px 0 0 20px ;
+    height: 50px;
+}
+.logoNav>nav>ul>.changeBg:nth-child(5){
+    background: #fff;
+    color: #fd4f4f;
+    border-radius: 0 20px 20px 0 ;
+    height: 50px;
+}
+.subnav{
+    display: none;
+}
+.subnav>li{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px #FFF solid;
+    color: #fff;
+    transition: all 0.5s;
+}
+.subnav>li>a{
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+.subnav>li:hover{
+    animation: subNavAni 0.5s both;
+}
+.subnav>.showSub{
+    background-color: #fd4f4f;
+    color: #fff;
+}
+/************************************/
+.classOne>.banner,
+.classOne>.banner>ul,
+.classOne>.banner>ul>li{
+    width: 100%;
+    height: 100%;
+}
+.classOne>.banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -20;
+    cursor: pointer;
+}
+.classOne>.banner>ul>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.classOne>.banner>ul{
+    position: relative;
+    overflow: hidden;
+}
+.classOne>.banner>ul>.show{
+    display: block;
+}
+.classOne>.banner>ul>li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: none;
+    animation: picAni 1.5s both;
+}
+.classOne>.banner>ul>li img{
+    width: 100%;
+    height: 100%;
+}
+.classOne>.banner>.bannerBtn{
+    display: block;
+    width: 80px;
+    height: 150px;
+    background-color: #000;
+    opacity: 0.2;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+    position: absolute;
+    top: 50%;
+    margin-top: -75px;
+}
+.classOne>.banner>.bannerPrev{
+    left: 360px;
+}
+.classOne>.banner>.bannerNext{
+    right: 360px;
+}
+.classOne>.banner>.bannerBtn:hover{
+    opacity: 1;
+}
+.controls{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -75px;
+}
+.controls>span{
+    display:block;
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.controls>.spanOn{
+    background-color: #800000;
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+/****************************************************************/
+.aboutBg{
+    width: 1200px;
+    height: 600px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 50px;
+    margin-top: 150px;
+    position: relative;
+}
+.aboutBg>h3{
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: normal;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 60px;
+}
+.aboutBg>p{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-indent: 2em;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    line-height: 50px;
+    padding-top: 50px;
+}
+.aboutBg>.aboutBtn{
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    height: 80px;
+    background: rgba(255,255,255,0.46);
+    border-radius: 40px;
+    font-size: 30px;
+    line-height: 80px;
+    color: #ffffff;
+    transition: all 0.5s;
+    cursor: pointer;
+    animation: aboutBtnAni 5s alternate both infinite;
+}
+.aboutBg>.aboutBtn:hover{
+    animation: none;
+}
+/*****************************************/
+.books{
+    width: 1200px;
+    height: 900px;
+    margin-top: 50px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 50px;
+}
+.books>h3{
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 50px;
+}
+.books>.books_img{
+    margin-top: 20px;
+    height: 740px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.books>.books_img>figure{
+    margin: 0;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.books>.books_img>figure img{
+    transition: all 0.5s;
+}
+.books>.books_img>figure:hover img{
+    transform: scale(1.2);
+}
+.books>.books_img>figure::after{
+    content: "";
+    display: block;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 0 20px #fff inset;
+}
+.books>.books_img>figure>figcaption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 250px;
+    height: 350px;
+    background: #000;
+    display: none;
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+    color: #ffffff;
+    box-shadow: 0 0 20px #fff inset;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+.books>.books_img>figure:hover figcaption{
+    display: block;
+    animation: booksAni 0.5s both;
+}
+.books>.books_img>figure>figcaption>.more{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px #fff solid;
+    padding: 3px;
+    line-height: 35px;
+    font-size: 35px;
+    position: relative;
+    cursor: pointer;
+    margin-top: 80px;
+    background: url("../images/morePic.png") no-repeat center;
+}
+figcaption>.more>a{
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+/******************************************************************/
+.classFour{
+    position: relative;
+}
+.classFourCont{
+    margin-top: 30px;
+    width: 1200px;
+    height: 600px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 20px;
+}
+.classFourCont>h3{
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+.contactImg{
+    margin-top: 30px;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contactImg>li{
+    margin: 0;
+    width: 120px;
+    height: 150px;
+}
+.kefuBox{
+    width: 120px;
+    height: 150px;
+}
+.contactImg>li>a>figure>img{
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+}
+.contactImg>li>a>figure>figcaption{
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
+.contactImg>li{
+    border: 1px #fff solid;
+    padding: 10px;
+    animation: contactBtnAni 4s both infinite;
+}
+.contactImg>li:hover{
+    border: 1px #800000 solid;
+}
+/***************************************************************/
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    background: url("../images/footerbg.png") no-repeat center;
+    font-size: 14px;
+}
+.footer>.linkUl{
+    margin-top: 20px;
+}
+.footer>ul{
+    width: 900px;
+    display: flex;
+}
+.footer>ul>li{
+    flex: 1;
+    line-height: 30px;
+}
+.footer>ul>li>a:hover{
+    color: #800000;
+}
+.footer>p{
+    width: 900px;
+    line-height: 30px;
+}
+.footerImg{
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+}
+.footerImg>a{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.footerImg>a:nth-child(1){
+    float: left;
+}
+.footerImg>a:nth-child(2){
+    float: right;
+}
+.footerImg img{
+    width: 100px;
+    height: 100px;
+}
+.footerImg>p{
+    clear: both;
+    text-align: center;
+}
+
+
+
+
+
+
+/* 动画区 */
+@keyframes subNavAni {
+    0%{
+        opacity: 0;
+        transform: rotateY(360deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0);
+    }
+}
+
+@keyframes aboutBtnAni {
+    0%{
+        transform: rotateY(360deg);
+        background: rgba(255,255,255,0.46);
+    }
+    50%{
+        background: rgba(255, 136, 132, 0.46);
+    }
+    100%{
+        transform: rotateY(0);
+        background: rgba(255,255,255,0.46);
+    }
+}
+
+@keyframes contactBtnAni {
+    0%{
+        transform: rotateY(360deg);
+    }
+    100%{
+        transform: rotateY(0);
+    }
+}
+
+@keyframes booksAni {
+    0%{
+        opacity: 0;
+        transform: translateY(350px);
+    }
+    100%{
+        opacity: 0.7;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,34 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+a,
+a:hover{
+    color: inherit;
+    text-decoration: none;
+}
+ul,li,ol{
+    list-style: none;
+}
+body{
+    font-family: "Microsoft YaHei",Arial;
+    font-size: 16px;
+    color: #333;
+}
+.f_left{
+    float: left;
+}
+.f_right{
+    float: right;
+}
+.f_clear{
+    clear: both;
+}
+button{
+    outline: none;
+    border: none;
+}
+
+main{
+    width: 1200px;
+}

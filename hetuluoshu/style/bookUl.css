@@ -1,0 +1,402 @@
+.banner_nav{
+    width: 100%;
+    min-width: 1200px;
+    height: 600px;
+    position: relative;
+}
+.logoNav{
+    width: 1200px;
+    height: 150px;
+    position: absolute;
+    z-index: 10;
+    left: 360px;
+    /*background-color: #993366;*/
+}
+.logoNav>a{
+    display: block;
+    width: 300px;
+    height: 150px;
+}
+.logoNav>nav>.navUl{
+    width: 750px;
+    height: 50px;
+    display: flex;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.logoNav>nav>.navUl>li{
+    flex: 1;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+.logoNav>nav>.navUl>li>a{
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+.logoNav>nav>ul>.changeBg{
+    background: #fff;
+    color: #fd4f4f;
+    height: 50px;
+}
+.logoNav>nav>ul>.changeBg:nth-child(1){
+    background: #fff;
+    color: #fd4f4f;
+    border-radius: 20px 0 0 20px ;
+    height: 50px;
+}
+.logoNav>nav>ul>.changeBg:nth-child(5){
+    background: #fff;
+    color: #fd4f4f;
+    border-radius: 0 20px 20px 0 ;
+    height: 50px;
+}
+.subnav{
+    display: none;
+}
+.subnav>li{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px #FFF solid;
+    color: #fff;
+    transition: all 0.5s;
+}
+.subnav>li:hover{
+    animation: subNavAni 0.5s both;
+}
+.subnav>li>a{
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+.subnav>.showSub{
+    background-color: #fd4f4f;
+    color: #fff;
+}
+.banner_nav>.banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.banner{
+    width: 100%;
+    min-width: 1200px;
+    height: 600px;
+    /*border:1px solid #333333;*/
+    position: relative;
+}
+.bannerUl,
+.bannerUl>li,
+.bannerUl>li>a{
+    width: 100%;
+    height: 600px;
+}
+.bannerUl>li>a{
+    display: block;
+}
+.bannerUl>li{
+    position: absolute;
+    top:0;
+    left: 0;
+    display: none;      /* 隐藏图片 */
+    overflow: hidden;   /* 阻止内容超出 */
+}
+.bannerUl>.show{
+    display: block;     /* 显示图片 */
+    animation: showAni 0.5s both;   /* 使用动画 */
+}
+.bannerBtn{
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    background: #000;
+    opacity: 0.3;
+    line-height: 70px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 28px;
+    transition: opacity 0.3s;
+}
+.bannerBtn:hover{
+    opacity: 0.8;
+    color: #fff;
+}
+.bannerPrev{
+    left: 360px;
+}
+.bannerNext{
+    right: 360px;
+}
+.controls{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -75px;
+}
+.controls>span{
+    display:block;
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.controls>.spanOn{
+    background-color: #800000;
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+/*************************************************/
+.break_sreach{
+    width: 1200px;
+    height: 30px;
+    margin-top: 30px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.break_sreach>p{
+    float: left;
+    line-height: 30px;
+}
+.break_sreach a{
+    color: #63d3fc;
+}
+.break_sreach>.sreachBox{
+    float: right;
+    overflow: hidden;
+}
+.break_sreach>.sreachBox>input{
+    width: 269px;
+    height: 30px;
+    border: 1px #f5d1b2 solid;
+    box-sizing: border-box;
+    outline: none;
+    padding-left: 15px;
+}
+.break_sreach>.sreachBox>a{
+    float: right;
+    display: block;
+    width: 57px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    border: 1px #f5d1b2 solid;
+    background: #f5d1b2;
+}
+.main_cont{
+    width: 1200px;
+    overflow: hidden;
+}
+.main_cont>.bookTit{
+    width: 153px;
+    float: left;
+    margin-top: 20px;
+}
+.main_cont>.bookTit a{
+    display: block;
+    width: 100%;
+    height: 26px;
+}
+.main_cont>.bookTit>li{
+    width: 153px;
+    height: 26px;
+    background: #f5d1b2;
+    text-align: center;
+    line-height: 26px;
+    color: #fff;
+    margin-top: 9px;
+}
+.main_cont>.bookCont{
+    float: right;
+    width: 995px;
+    height: 880px;
+    margin-top: 10px;
+    margin-right: 10px ;
+}
+.main_cont>.bookCont>li{
+    display: none;
+}
+.main_cont>.bookCont>li:nth-child(1){
+    display: block;
+}
+.main_cont>.bookCont .bookUl{
+    width: 100%;
+}
+.main_cont>.bookCont .bookUl>li{
+    height: 197px;
+    background: #f5d1b2;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.main_cont>.bookCont .bookUl>li:hover{
+    box-shadow: 0 0 20px #f5d1b2;
+}
+.bookUl>li img{
+    float: left;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.bookUl>li .book_del{
+    width: 800px;
+    height: 197px;
+    float: left;
+    line-height: 30px;
+    margin-left: 30px;
+}
+.bookUl>li .book_del>h3{
+    font-size: 24px;
+    padding-top: 6px;
+}
+.bookUl>li .book_del>p{
+    font-size: 16px;
+}
+.bookUl>li .book_del>p>span{
+    float: right;
+    color: #00cdff;
+}
+/************************************/
+.footer{
+    width: 100%;
+    height: 300px;
+    background: url("../images/footerbg.png") no-repeat center;
+    font-size: 14px;
+    color: #fff;
+}
+.footer>.linkUl{
+    margin-top: 20px;
+}
+.footer>.linkUl>li{
+    margin-top: 20px;
+}
+.footer>ul{
+    width: 900px;
+    display: flex;
+}
+.footer>ul>li{
+    flex: 1;
+    line-height: 30px;
+}
+.footer>ul>li>a:hover{
+    color: #800000;
+}
+.footer>p{
+    width: 900px;
+    line-height: 30px;
+}
+.footerImg{
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+}
+.footerImg>a{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.footerImg>a:nth-child(1){
+    float: left;
+}
+.footerImg>a:nth-child(2){
+    float: right;
+}
+.footerImg img{
+    width: 100px;
+    height: 100px;
+}
+.footerImg>p{
+    clear: both;
+    line-height: 50px;
+    text-align: center;
+}
+
+/**********************************************************/
+main>p{
+    font-size: 12px;
+    height: 30px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+main>p a,
+main>p a:hover{
+    color: #63d3fc;
+}
+main>.bookBox{
+    width: 1200px;
+    height: 380px;
+    padding-top: 20px;
+    border-bottom: 1px #ec2828 solid;
+    overflow: hidden;
+}
+main>.bookBox>img{
+    float: left;
+    border: 3px #f5d1b2 solid;
+}
+main>.bookBox>.bookBox_cont{
+    float: left;
+    width: 500px;
+    height: 380px;
+    margin-left: 50px;
+    line-height: 50px;
+}
+main>.bookBox>.bookBox_cont>h3{
+    font-size: 30px;
+}
+main>.bookBox>.bookBox_cont>p{
+    font-size: 24px;
+}
+main>.bookBox>.bookBox_cont>p>span{
+    color: red;
+}
+.bookBox_cont>.bookBtn>button{
+    width: 160px;
+    height: 45px;
+    background: #f5d1b2;
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.bookDet_cont{
+    width: 1050px;
+    height: 509px;
+    margin-top: 30px;
+}
+.bookDet_cont>p{
+    line-height: 50px;
+    font-size: 18px;
+    text-indent: 2em;
+}
+/* 动画设置区 */
+@keyframes showAni {  /* 背景透明度动画 */
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes subNavAni {
+    0%{
+        opacity: 0;
+        transform: rotateY(360deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0);
+    }
+}

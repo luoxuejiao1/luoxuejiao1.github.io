@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>河图洛书网</title>
+    <link rel="icon" href="images/titleLogo.png">
+    <link rel="stylesheet" href="style/iconfonts/font_1891974_s7827ip197o/iconfont.css">
+    <link rel="stylesheet" href="style/public.css">
+    <link rel="stylesheet" href="style/bookUl.css">
+</head>
+<body>
+
+<div class="banner_nav">
+    <!-- 导航 -->
+    <div class="logoNav">
+        <a href="#" class="f_left"><img src="images/logoTop.png" alt=""></a>
+        <nav>
+            <ul class="navUl f_right" id="navUl">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">公司概况</a></li>
+                <li><a href="#">书籍分类</a>
+                    <ul class="subnav">
+                        <li><a href="#">经典文学</a></li>
+                        <li><a href="#">教辅书籍</a></li>
+                        <li><a href="#">历史文学</a></li>
+                        <li><a href="#">自然科学</a></li>
+                        <li><a href="#">儿童读物</a></li>
+                        <li><a href="#">哲学</a></li>
+                        <li><a href="#">经济学</a></li>
+                        <li><a href="#">天文学</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">联系我们</a>
+                    <ul class="subnav">
+                        <li><a href="#">在线客服</a></li>
+                        <li><a href="#">企业微信</a></li>
+                        <li><a href="#">官方微博</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">意见反馈</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- 导航 end -->
+
+    <!-- banner -->
+    <div class="banner">
+        <ul class="bannerUl" id="bannerUl">
+            <li class="show"><a href="#"><img src="images/banner005.png" alt=""></a></li>
+            <li><a href="#"><img src="images/banner006.png" alt=""></a></li>
+            <li><a href="#"><img src="images/banner007.png" alt=""></a></li>
+            <li><a href="#"><img src="images/banner008.png" alt=""></a></li>
+        </ul>
+
+        <!-- 左右切换 -->
+        <a id="btnPrev" class="bannerBtn bannerPrev iconfont icon-prev" href="javascript:void (0)"></a>
+        <a id="btnNext" class="bannerBtn bannerNext iconfont icon-next" href="javascript:void (0)"></a>
+        <!-- 左右切换 end -->
+
+        <!-- 控制块 -->  <!-- 利用JS遍历li生成控制点 -->
+        <div class="controls ctrl_bg" id="ctrls">
+
+        </div>
+        <!-- 控制块 end -->
+    </div>
+    <!-- banner end -->
+</div>
+
+<main>
+    <div class="break_sreach">
+        <p>
+            <a href="hetuluoshu.html">首页</a>
+            <span>></span>
+            书籍展示
+        </p>
+        <div class="sreachBox">
+            <input type="text" placeholder="请输入图书名或图书作者">
+            <a href="#">搜索</a>
+        </div>
+    </div>
+
+    <div class="main_cont">
+        <ul class="bookTit" id="bookTit">
+            <li onclick="Option(1)"><a href="javascript:void (0);">经典文学</a></li>
+            <li onclick="Option(2)"><a href="javascript:void (0);">教辅书籍</a></li>
+            <li onclick="Option(3)"><a href="javascript:void (0);">历史文学</a></li>
+            <li onclick="Option(4)"><a href="javascript:void (0);">自然科学</a></li>
+            <li onclick="Option(5)"><a href="javascript:void (0);">儿童读物</a></li>
+            <li onclick="Option(6)"><a href="javascript:void (0);">哲学</a></li>
+            <li onclick="Option(7)"><a href="javascript:void (0);">经济学</a></li>
+            <li onclick="Option(8)"><a href="javascript:void (0);">天文学</a></li>
+        </ul>
+
+        <ul class="bookCont" id="bookCont">
+            <li id="option1">
+                <ul class="bookUl">
+                    <li>
+                        <img src="images/shujilie.png" alt="">
+                        <div class="book_del">
+                            <h3>导读巴赫金</h3>
+                            <p>作者：阿拉斯泰尔·伦弗鲁</p>
+                            <p>出版时间：2020-05-19</p>
+                            <p>毫无疑问，巴赫金是苏维埃俄国产生的最令人惊叹的具有独创性的思想家，以及20世纪最重要的一位文学理论家。他不仅重新构想了文学和其他学科之间的关系，而且最终能够论证所有人文学科——书写位于其概念及...</p>
+                            <p>定价：￥48.00 <span><a href="bookDet.html">[详情>>]</a></span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/shujilie.png" alt="">
+                        <div class="book_del">
+                            <h3>导读巴赫金</h3>
+                            <p>作者：阿拉斯泰尔·伦弗鲁</p>
+                            <p>出版时间：2020-05-19</p>
+                            <p>毫无疑问，巴赫金是苏维埃俄国产生的最令人惊叹的具有独创性的思想家，以及20世纪最重要的一位文学理论家。他不仅重新构想了文学和其他学科之间的关系，而且最终能够论证所有人文学科——书写位于其概念及...</p>
+                            <p>定价：￥48.00 <span><a href="bookDet.html#">[详情>>]</a></span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/shujilie.png" alt="">
+                        <div class="book_del">
+                            <h3>导读巴赫金</h3>
+                            <p>作者：阿拉斯泰尔·伦弗鲁</p>
+                            <p>出版时间：2020-05-19</p>
+                            <p>毫无疑问，巴赫金是苏维埃俄国产生的最令人惊叹的具有独创性的思想家，以及20世纪最重要的一位文学理论家。他不仅重新构想了文学和其他学科之间的关系，而且最终能够论证所有人文学科——书写位于其概念及...</p>
+                            <p>定价：￥48.00 <span><a href="bookDet.html">[详情>>]</a></span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/shujilie.png" alt="">
+                        <div class="book_del">
+                            <h3>导读巴赫金</h3>
+                            <p>作者：阿拉斯泰尔·伦弗鲁</p>
+                            <p>出版时间：2020-05-19</p>
+                            <p>毫无疑问，巴赫金是苏维埃俄国产生的最令人惊叹的具有独创性的思想家，以及20世纪最重要的一位文学理论家。他不仅重新构想了文学和其他学科之间的关系，而且最终能够论证所有人文学科——书写位于其概念及...</p>
+                            <p>定价：￥48.00 <span><a href="bookDet.html">[详情>>]</a></span></p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li id="option2">
+                <ul class="bookUl">
+                    <li>
+                        <img src="images/shujilie.png" alt="">
+                        <div class="book_del">
+                            <h3>导读巴赫金</h3>
+                            <p>作者：阿拉斯泰尔·伦弗鲁</p>
+                            <p>出版时间：2020-05-19</p>
+                            <p>毫无疑问，巴赫金是苏维埃俄国产生的最令人惊叹的具有独创性的思想家，以及20世纪最重要的一位文学理论家。他不仅重新构想了文学和其他学科之间的关系，而且最终能够论证所有人文学科——书写位于其概念及...</p>
+                            <p>定价：￥48.00 <span><a href="bookDet.html">[详情>>]</a></span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/shujilie.png" alt="">
+                        <div class="book_del">
+                            <h3>导读巴赫金</h3>
+                            <p>作者：阿拉斯泰尔·伦弗鲁</p>
+                            <p>出版时间：2020-05-19</p>
+                            <p>毫无疑问，巴赫金是苏维埃俄国产生的最令人惊叹的具有独创性的思想家，以及20世纪最重要的一位文学理论家。他不仅重新构想了文学和其他学科之间的关系，而且最终能够论证所有人文学科——书写位于其概念及...</p>
+                            <p>定价：￥48.00 <span><a href="bookDet.html">[详情>>]</a></span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/shujilie.png" alt="">
+                        <div class="book_del">
+                            <h3>导读巴赫金</h3>
+                            <p>作者：阿拉斯泰尔·伦弗鲁</p>
+                            <p>出版时间：2020-05-19</p>
+                            <p>毫无疑问，巴赫金是苏维埃俄国产生的最令人惊叹的具有独创性的思想家，以及20世纪最重要的一位文学理论家。他不仅重新构想了文学和其他学科之间的关系，而且最终能够论证所有人文学科——书写位于其概念及...</p>
+                            <p>定价：￥48.00 <span><a href="bookDet.html">[详情>>]</a></span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/shujilie.png" alt="">
+                        <div class="book_del">
+                            <h3>导读巴赫金</h3>
+                            <p>作者：阿拉斯泰尔·伦弗鲁</p>
+                            <p>出版时间：2020-05-19</p>
+                            <p>毫无疑问，巴赫金是苏维埃俄国产生的最令人惊叹的具有独创性的思想家，以及20世纪最重要的一位文学理论家。他不仅重新构想了文学和其他学科之间的关系，而且最终能够论证所有人文学科——书写位于其概念及...</p>
+                            <p>定价：￥48.00 <span><a href="bookDet.html">[详情>>]</a></span></p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li id="option3">
+                <ul class="bookUl">
+                    <li>
+                        <img src="images/shujilie.png" alt="">
+                        <div class="book_del">
+                            <h3>导读巴赫金</h3>
+                            <p>作者：阿拉斯泰尔·伦弗鲁</p>
+                            <p>出版时间：2020-05-19</p>
+                            <p>毫无疑问，巴赫金是苏维埃俄国产生的最令人惊叹的具有独创性的思想家，以及20世纪最重要的一位文学理论家。他不仅重新构想了文学和其他学科之间的关系，而且最终能够论证所有人文学科——书写位于其概念及...</p>
+                            <p>定价：￥48.00 <span><a href="bookDet.html">[详情>>]</a></span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/shujilie.png" alt="">
+                        <div class="book_del">
+                            <h3>导读巴赫金</h3>
+                            <p>作者：阿拉斯泰尔·伦弗鲁</p>
+                            <p>出版时间：2020-05-19</p>
+                            <p>毫无疑问，巴赫金是苏维埃俄国产生的最令人惊叹的具有独创性的思想家，以及20世纪最重要的一位文学理论家。他不仅重新构想了文学和其他学科之间的关系，而且最终能够论证所有人文学科——书写位于其概念及...</p>
+                            <p>定价：￥48.00 <span><a href="bookDet.html#">[详情>>]</a></span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/shujilie.png" alt="">
+                        <div class="book_del">
+                            <h3>导读巴赫金</h3>
+                            <p>作者：阿拉斯泰尔·伦弗鲁</p>
+                            <p>出版时间：2020-05-19</p>
+                            <p>毫无疑问，巴赫金是苏维埃俄国产生的最令人惊叹的具有独创性的思想家，以及20世纪最重要的一位文学理论家。他不仅重新构想了文学和其他学科之间的关系，而且最终能够论证所有人文学科——书写位于其概念及...</p>
+                            <p>定价：￥48.00 <span><a href="bookDet.html">[详情>>]</a></span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/shujilie.png" alt="">
+                        <div class="book_del">
+                            <h3>导读巴赫金</h3>
+                            <p>作者：阿拉斯泰尔·伦弗鲁</p>
+                            <p>出版时间：2020-05-19</p>
+                            <p>毫无疑问，巴赫金是苏维埃俄国产生的最令人惊叹的具有独创性的思想家，以及20世纪最重要的一位文学理论家。他不仅重新构想了文学和其他学科之间的关系，而且最终能够论证所有人文学科——书写位于其概念及...</p>
+                            <p>定价：￥48.00 <span><a href="bookDet.html">[详情>>]</a></span></p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li id="option4"></li>
+            <li id="option5"></li>
+            <li id="option6"></li>
+            <li id="option7"></li>
+            <li id="option8"></li>
+        </ul>
+    </div>
+</main>
+<footer>
+    <div class="footer">
+        <ul class="linkUl">
+            <li><a href="#">重庆大学出版社</a></li>
+            <li><a href="#">人民邮电出版社</a></li>
+            <li><a href="#">机械工业出版社</a></li>
+            <li><a href="#">清华大学出版社</a></li>
+            <li><a href="#">北京大学出版社</a></li>
+            <li><a href="#">重庆出版社</a></li>
+            <li><a href="#">人民出版社</a></li>
+        </ul>
+        <ul class="zixunUl">
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">我们的社区</a></li>
+            <li><a href="#">教材咨询</a></li>
+            <li><a href="#">图书资讯</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+        <p>户名：河图洛书有限公司</p>
+        <p>地址：重庆市巴南区</p>
+        <div class="footerImg">
+            <a href="#"><img src="images/titleLogo.png" alt=""></a>
+            <a href="#"><img src="images/erweima.png" alt=""></a>
+            <p>© 2020 河图洛书有限公司版权所有</p>
+        </div>
+    </div>
+</footer>
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/hetuluoshu.js"></script>
+</body>
+</html>

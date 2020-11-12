@@ -1,0 +1,44 @@
+{
+  "id": "1891974",
+  "name": "河图洛书",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "986225",
+      "name": "微博",
+      "font_class": "weibo-copy",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "1115082",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "1719339",
+      "name": "轮播右翻滚",
+      "font_class": "lunboyoufangun",
+      "unicode": "e7b7",
+      "unicode_decimal": 59319
+    },
+    {
+      "icon_id": "1719340",
+      "name": "轮播左翻滚",
+      "font_class": "lunbozuofangun",
+      "unicode": "e7b8",
+      "unicode_decimal": 59320
+    },
+    {
+      "icon_id": "14348639",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    }
+  ]
+}
