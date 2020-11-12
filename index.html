@@ -1,54 +1,135 @@
 <!DOCTYPE html>
-<html lang="en" style="font-size: 100px;">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>木乔的个人网站</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
-<div class="container-fluid index_ban">
-    <div class="row m-0">
-        <div class="col-sm-12 p-0">
-            <ul class="nav ulTab text-center">
-                <li class="nav-item col-sm-1 offset-sm-2"><a href="#">个人信息</a></li>
-                <li class="nav-item col-sm-1"><a href="#">项目经历</a></li>
-                <li class="nav-item col-sm-1"><a href="#">专业技能</a></li>
-                <li class="nav-item col-sm-1"><a href="#">校内经历</a></li>
-                <li class="nav-item col-sm-1"><a href="#">校外经历</a></li>
-                <li class="nav-item col-sm-1"><a href="#">获奖情况</a></li>
-                <li class="nav-item col-sm-1"><a href="#">自我评价</a></li>
-                <li class="nav-item col-sm-1"><a href="#">项目展示</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-<div class="container-fluid index_ban">
-    <div class="row m-0">
-        <div class="col-xl-3 col-sm-12 offset-xl-3 p-0 mb-1 mt-1 my_infor">
-            <h2 class="mt-1">基本信息</h2>
-            <p>姓名：罗旭桥</p>
-            <p>性别：男</p>
-            <p>年龄：21岁</p>
-            <p>学历：本科</p>
-            <p>毕业院校：重庆工程学院</p>
-            <p>专业：数字媒体技术</p>
-            <p>技术博客：<a target="_blank" href="https://blog.csdn.net/weixin_46410264">CSDN</a></p>
-            <p>求职意向：web前端开发</p>
-            <p>期望薪资：4k-6k</p>
-            <p>联系电话：17602344199</p>
-            <p>邮箱地址：726470233@qq.com</p>
-        </div>
-        <div class="col-xl-4 col-sm-12 mt-1 mb-1">
-            <img src="images/my_img.jpg" alt="">
-        </div>
-    </div>
-</div>
-
-
-<script src="js/jquery-3.4.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/index.js"></script>
-</body>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>Luo's Web</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="container-fluid bg-dark">
+			<div class="row">
+				<div class="col-6 offset-3 ht-80 p-0">
+					<ul class="row col-12 text-center m-0 p-0 navUl">
+						<li class="col-4 p-0"><a href="index.html">个人博客</a></li>
+						<li class="col-4 p-0"><a href="jianli.html">个人简历</a></li>
+						<li class="col-4 p-0"><a href="proshow.html">项目展示</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-12 card border-primary mt-5 mb-3 p-0">
+				  <div class="row m-0">
+					  <h3 class="col-8 card-header">javascript的数据类型</h3>
+					  <h4 class="col-4 card-header text-right">2020-10-09</h4>
+				  </div>
+				  <div class="card-body">
+				    <h5 class="card-title">基本数据类型：string字符串、number数值型、boolean布尔型、null空值、undefined未定义</h5>
+					<h5 class="card-title">引用数据类型：object对象</h5>
+					<h5 class="card-title">ES6新增数据类型：Symbol 定义对象的唯一属性名</h5>
+				    <p class="card-text">
+						<span class="text-dark mr-3">1、string字符串</span>
+						<p class="text-indent text-secondary">字符串里面的值不可被改变。虽然可以通过拼接等等实现貌似值的改变，但其实是指向的地址变了，内存中新开辟了一个内存空间。使用单引号''、双引号""以及反引号``表示字符串
+						</p>
+						<figure class="bg-light pl-1">
+							<code class="text-secondary">
+								var str1 = '123';<br />
+								var str2 = "123";<br />
+								var str3 = `123`
+							</code>
+						</figure>
+					</p>
+				    <p class="card-text">
+						<span class="text-dark mr-3">2、number数值型</span>
+						<p class="text-indent text-secondary">在 JS 中，只要是数，就是 Number 数值型的。无论整浮、浮点数（即小数）、无论大小、无论正负，都是 Number 类型的。由于内存的限制，ECMAScript 并不能保存世界上所有的数值。<br />最大值：Number.MAX_VALUE，这个值为： 1.7976931348623157e+308<br />最小值：Number.MIN_VALUE，这个值为： 5e-324<br />如果使用 Number 表示的变量超过了最值，则会返回Infinity。<br />无穷大（正无穷）：Infinity<br />无穷小（负无穷）：-Infinity</p>
+						<p class="text-indent text-secondary">特殊数值型：NaN。NaN：是一个特殊的数字，表示Not a Number，非数值。出现条件：无法转化为数字的数据使用了非+运算符号进行“运算”。NaN 与任何值都不相等，包括 NaN 本身；typeof NaN的返回结果是 number；undefined做任何数值运算都是NaN；null做数值运算被视为0。</p>
+					</p>
+				    <p class="card-text">
+						<span class="text-dark mr-3">3、boolean布尔型</span>
+						<p class="text-indent text-secondary">布尔型有两个值：true 和 false。布尔型和数字型相加时， true 按 1 来算 ，false 按 0 来算。</p>
+					</p>
+					<p class="card-text">
+						<span class="text-dark mr-3">4、null空值</span>
+						<p class="text-indent text-secondary">Null 类型的值只有一个，就是 null。比如 let a = null。使用 typeof 检查一个 null 值时，会返回 object。</p>
+						<figure class="bg-light pl-1">
+							<code class="text-secondary">
+								var myObj = null;<br />
+								cosole.log(typeof myObj); // object
+							</code>
+						</figure>
+					</p>
+					<p class="card-text">
+						<span class="text-dark mr-3">5、undefined未定义</span>
+						<p class="text-indent text-secondary">Undefined 类型的值只有一个，就是 undefind。比如 let a = undefined。使用 typeof 检查一个 undefined 值时，会返回 undefined。变量已声明，未赋值、打印无返回值的函数、typeof未声明的变量时结果为undefined
+						<figure class="col-12 bg-light pl-1">
+							<code class="text-secondary">
+								let x; console.log(x);<br />
+								function foo(){};console.log(foo());<br />
+								console.log(typeof a)
+							</code>
+						</figure>
+						no defined    未声明参数，就调用
+						<figure class="col-12 bg-light pl-1">
+							<code class="text-secondary">
+								console.log( a+1);
+							</code>
+						</figure>
+						null 和 undefined  一个是有定义有赋值，但赋值为空；一个是有定义但没赋值；从值上，空值也相当于没有赋值，从类型上，两个不相同，所以
+						<figure class="col-12 bg-light pl-1">
+							<code class="text-secondary">
+								console.log( null==undefined) //true<br />
+								console.log( null===undefined) //false
+							</code>
+						</figure>
+						需要注意的是，当两者参与运算时
+						<figure class="col-12 bg-light pl-1">
+							<code class="text-secondary">
+								console.log( 10 + null );  //输出10<br />
+								console.log( 10 + undefined ); //输出NaN
+							</code>
+						</figure>
+						</p>
+					</p>
+					<p class="card-text">
+						<span class="text-dark mr-3">6、object对象</span>
+						<p class="text-indent text-secondary">内置对象 Function、Array、Date、RegExp、Error等都是属于Object 类型。也就是说，除了那五种基本数据类型之外，其他的，都称之为Object类型。JS中的内置对象Date、RegExp、Number、Function等可以看做派生类、Object可以被看做基类。而特殊的是，javascript中Object这个基类，同时又是Function这个派生类的实例对象。</p>
+					</p>
+					<p class="card-text">
+						<span class="text-dark mr-3">7、Symbol</span>
+						<p class="text-indent text-secondary">Symbol 类型的对象永远不相等，即便创建的时候传入相同的值。因此，可以用解决属性名冲突的问题（适用于多少编码），做为标记。</p>
+					</p>
+				  </div>
+				</div>
+				<div class="col-12 card border-primary mt-5 mb-3 p-0">
+				  <div class="row m-0">
+					  <h3 class="col-8 card-header">C++面向对象三大特征</h3>
+					  <h4 class="col-4 card-header text-right">2020-10-01</h4>
+				  </div>
+				  <div class="card-body">
+				    <h5 class="card-title">封装、继承、多态</h5>
+				    <p class="card-text">
+						<span class="text-dark mr-3">1、封装</span>
+						<p class="text-indent text-secondary">封装可以隐藏实现细节，使得代码模块化；封装是把过程和数据包围起来，对数据的访问只能通过已定义的界面。面向对象计算始于这个基本概念，即现实世界可以被描绘成一系列完全自治、封装的对象，这些对象通过一个受保护的接口访问其他对象。在面向对象编程上可理解为：把客观事物封装成抽象的类，并且类可以把自己的数据和方法只让可信的类或者对象操作，对不可信的进行信息隐藏。
+						</p>
+					</p>
+				    <p class="card-text">
+						<span class="text-dark mr-3">2、继承</span>
+						<p class="text-indent text-secondary">继承是指这样一种能力：它可以使用现有类的所有功能，并在无需重新编写原来的类的情况下对这些功能进行扩展。其继承的过程，就是从一般到特殊的过程。通过继承创建的新类称为“子类”或“派生类”。被继承的类称为“基类”、“父类”或“超类”。要实现继承，可以通过“继承”（Inheritance）和“组合”（Composition）来实现。在某些 OOP 语言中，一个子类可以继承多个基类。但是一般情况下，一个子类只能有一个基类，要实现多重继承，可以通过多级继承来实现。</p>
+					</p>
+				    <p class="card-text">
+						<span class="text-dark mr-3">3、多态</span>
+						<p class="text-indent text-secondary">多态性（polymorphisn）是允许你将父对象设置成为和一个或更多的他的子对象相等的技术，赋值之后，父对象就可以根据当前赋值给它的子对象的特性以不同的方式运作。简单的说，就是一句话：允许将子类类型的指针赋值给父类类型的指针。</p>
+					</p>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
