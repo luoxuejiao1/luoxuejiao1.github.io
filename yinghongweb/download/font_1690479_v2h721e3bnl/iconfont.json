@@ -1,0 +1,30 @@
+{
+  "id": "1690479",
+  "name": "webpage",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6945260",
+      "name": "sousuo",
+      "font_class": "sousuo",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "788028",
+      "name": "主页",
+      "font_class": "zhuye",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "7290573",
+      "name": "星星",
+      "font_class": "xingxing",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    }
+  ]
+}

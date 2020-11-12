@@ -1,0 +1,513 @@
+/*  以下是top部分样式  */
+.web{
+    width: 1326px;
+    height: 3000px;
+    /*border: 1px solid #222222;*/
+}
+.top{
+    width: 100%;
+    height: 20px;
+}
+.top-icon{
+    font-size: 12px;
+    text-align: right;
+    margin-right: 20px;
+}
+.index{
+    margin-right: 20px;
+}
+.top-tiao{
+    width: 100%;
+    height: 7px;
+    background-color: #01458e;
+}
+
+/*  以下是nav部分样式  */
+.nav{
+    width: 100%;
+    height: 73px;
+}
+.logo img{
+    margin-left: 116px;
+}
+.logo,.nav-font{
+    float: left;
+}
+.nav-font {
+    color: #034593;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: 40px;
+}
+.logo-font,.nav-nav{
+    float: left;
+}
+.nav-nav{
+    margin-top: 32px;
+    margin-left: 20px;
+}
+.nav-nav>ul>li{
+    float: left;
+    text-align: center;
+    line-height: 19px;
+    position: relative;
+}
+.nav-nav>ul>li>a:hover,
+.nav-nav>ul>li:hover>a{
+    background: url("../images/navbeijing.png");
+}
+.nav-nav>ul>li>a{
+    width: 92px;
+    height: 19px;
+    display: block;
+}
+.meun_erji{
+    position: absolute;
+    top: 19px;
+    left: 50%;
+    margin-left: -46px;
+    text-align: center;
+    line-height: 24px;
+    display: none;
+}
+.meun_erji>li{
+    width: 92px;
+    height: 24px;
+    background-color: #00CCFF;
+}
+.meun_erji>li:hover,
+.meun_erji>li:hover a{
+    background-color: #034593;
+    color: #FFFFFF;
+}
+.meun_erji>li>a{
+    display: block;
+
+}
+.nav_block{
+    display: block;
+}
+
+
+.nav-wentu,.nav-search{
+    float: left;
+}
+.nav-search{
+    width: 100px;
+    height: 20px;
+    border: 1px solid #01458e;
+    margin-left: 52px;
+    margin-top: 32px;
+}
+.nav-search>input{
+    width: 80px;
+    height: 18px;
+    padding: 1px 2px 1px 2px;
+    border: none;
+    outline: none;
+    float: left;
+}
+.icon{
+    float: left;
+    line-height: 20px;
+}
+
+
+/* 以下是轮播部分样式代码 */
+.lunbo{
+    width: 100%;
+    height: 350px;
+}
+.lunbo>ul>li{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    position: relative;
+}
+.huakuai{
+    width: 170px;
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -40px;
+}
+.hua{
+    width: 50px;
+    height: 10px;
+    background-color: #606368;
+}
+.hua_left{
+    background-color: #e43749;
+}
+.hua_center,.hua_right{
+     margin-left: 10px;
+}
+
+
+/*  以下是主体内容部分样式  */
+main{
+    width: 908px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*  以下是公司简介部分样式  */
+.title{
+    height: 38px;
+    font-size: 38px;
+    font-family: "FZY1JW.TTF";
+    color: #7f7f7f;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+.title>.Ch{
+    color: #1a64b2;
+}
+.text>a{
+    color: #1a64b2;
+}
+.intr{
+    margin-top: 10px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    /*text-align: center;*/
+}
+.intr_li{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.intr_li>p{
+    font-size: 16px;
+    color: #a68e24;
+}
+
+/*  以下是公司动态部分样式  */
+.news{
+    margin: 30px 0 0 0;
+}
+.news_body{
+    width: 908px;
+    height: 207px;
+    margin-bottom: 30px;
+}
+.news_title_left{
+    width: 500px;
+    height: 31px;
+    text-align: left;
+    line-height: 25px;
+    float: left;
+}
+.news_title_right{
+    width: 343px;
+    height: 31px;
+    text-align: left;
+    line-height: 25px;
+    margin-left: 65px;
+    float: left;
+}
+.font{
+    height: 25px;
+}
+.sort{
+    width: 106px;
+    height: 5px;
+    background-color: #5277d2;
+    margin-left: 0;
+}
+.news_news{
+    float: right;
+    width: 420px;
+    height: 24px;
+}
+.news_news_1{
+    float: right;
+    width: 263px;
+    height: 24px;
+}
+.title_bottom_left{
+    width: 500px;
+    height: 1px;
+    background-color: #5277d2;
+}
+.title_bottom_right{
+    width: 343px;
+    height: 1px;
+    background-color: #5277d2;
+}
+.cont{
+    width: 100%;
+    height: 156px;
+    margin-top: 20px;
+}
+.cont>ul>li{
+    width: 500px;
+    height: 12px;
+    margin-bottom: 24px;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: "宋体";
+}
+.cont>ul>li>a{
+    width: 500px;
+    height: 12px;
+    color: #323232;
+}
+.cont>ul>li>a>.date{
+    margin-left: 110px;
+}
+.cont>ul>li>a>.date1{
+    margin-left: 164px;
+}
+.cont>ul>li>a>.date2{
+    margin-left: 86px;
+}
+.cont>ul>li>a>.date3{
+    margin-left: 128px;
+}
+.cont_li_1{
+    text-align: right;
+}
+.col{
+    color: #5377d7;
+}
+.cont_r{
+    width: 100%;
+    height: 162px;
+    margin-top: 14px;
+}
+.cont_r>ul>li{
+    width: 100%;
+    height: 24px;
+    margin: 0 0 12px 0;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: "宋体";
+}
+.cont_r>ul>li>a{
+    width: 100%;
+    height: 24px;
+    margin-left: 3px;
+    color: #323232;
+}
+.xuhao{
+    width: 24px;
+    height: 24px;
+    background-color: #5277d2;
+    border-radius: 5px;
+    font-family: 宋体;
+    font-size: 12px;
+    color: #fffefe;
+    text-align: center;
+    line-height: 24px;
+    float: left;
+}
+
+/*  以下是产品展示部分样式  */
+.Product{
+    width: 908px;
+    height: 516px;
+    margin-bottom: 30px;
+}
+.font_pro{
+    height: 24px;
+    line-height: 24px;
+}
+.title_bottom_pro{
+    width: 100%;
+    height: 1px;
+    background-color: #5277d2;
+    margin-bottom: 20px;
+}
+.pro_title_left{
+    width: 100%;
+}
+.little_title_pro{
+    width: 330px;
+    font-size: 10px;
+    font-family: "FZY1JW.TTF";
+    color: #273f63;
+    float: right;
+}
+.more{
+    float: right;
+    width: 500px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 10px;
+    font-family: 微软雅黑;
+    color: #273f63;
+    text-align: right;
+}
+.phos{
+    width: 100%;
+    height: 165px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.pho{
+    width: 218px;
+    height: 165px;
+}
+.phos_show{
+    margin-left: 12px;
+}
+.pho_g{
+    width: 290px;
+    height: 222px;
+}
+.phos_show_g{
+    margin-left: 19px;
+}
+
+/*  以下是合作伙伴部分样式  */
+.part{
+    width: 658px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    /*border: 1px solid #222222;*/
+}
+.part_left{
+    width: 186px;
+    height: 283px;
+    margin: 0 0 0 0;
+    border-radius: 0 0 90px 90px;
+    background-color: #e19257;
+}
+.part_center{
+    width: 186px;
+    height: 283px;
+    background-color: #db7d59;
+    margin: 0 50px 0 50px;
+    border-radius: 0 0 90px 90px;
+}
+.part_right{
+    width: 186px;
+    height: 283px;
+    margin: 0 0 0 0;
+    background-color: #ee6263;
+    border-radius: 0 0 90px 90px;
+}
+.logo_bg{
+    width: 136px;
+    height: 60px;
+    background-color: #fff;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+.part_cont{
+    color: #ffffff;
+    margin:0 25px 0 25px;
+}
+.part_more{
+    width: 100px;
+    height: 20px;
+    border: 1px solid #FFFFFF;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 20px;
+}
+.part_more>a{
+    color: #ffffff;
+}
+
+/*  以下是联系我们部分样式  */
+.conat_bg{
+    width: 948px;
+    height: 290px;
+    transform: translateX(-20px);
+    margin-bottom: 30px;
+    background-color: #b3c7f9;
+    display: flex;
+    flex-direction: row;
+}
+.con_map{
+    width: 347px;
+    height: 250px;
+    margin: 20px 50px 0 30px;
+}
+.conat_cont{
+    width: 288px;
+    height: 230px;
+    margin: 60px 0 0 0;
+
+}
+.conat_cont>span{
+    font-family: 微软雅黑;
+    font-size: 24px;
+    font-weight: bold;
+}
+.conat_cont>ul{
+    width: 238px;
+    margin: 24px 0 0 0;
+    line-height: 20px;
+}
+
+
+/*  以下是友情链接部分样式  */
+.font_link{
+    height: 24px;
+    line-height: 24px;
+}
+.title_bottom_link{
+    width: 100%;
+    height: 1px;
+    background-color: #5277d2;
+    margin-bottom: 15px;
+}
+.link_title{
+    width: 948px;
+    transform: translateX(-20px);
+}
+.little_title_link{
+    width: 330px;
+    font-size: 10px;
+    font-family: "FZY1JW.TTF";
+    float: right;
+}
+.more_link{
+    float: right;
+    width: 540px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 10px;
+    font-family: 微软雅黑;
+    color: #273f63;
+    text-align: right;
+}
+.link_cont{
+    width: 928px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #010101;
+    margin: 0 20px 30px 0;
+    text-align-last: justify;
+}
+
+/*  以下是底部样式  */
+.footer{
+    width: 100%;
+    height: 145px;
+    background-color: #01458e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer_img{
+    width: 554px;
+    height: 52px;
+    margin: 32px 0 0 0;
+}
+.footer>span{
+    font-size: 12px;
+    color: #598bbe;
+}

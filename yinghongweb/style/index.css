@@ -1,0 +1,30 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #333333;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "宋体";
+    font-size: 14px;
+    color: #333;
+}
+.fonts_style{
+    font-family: "FZY1JW.TTF";
+    color: #5277d3;
+    font-size: 18px;
+}
+.little_title{
+    font-size: 10px;
+    font-family: "FZY1JW.TTF";
+    color: #cccccc;
+}
